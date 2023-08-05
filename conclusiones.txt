@@ -1,0 +1,9 @@
+- Existen herramientas como karate que permiten automatizar pruebas de APIs REST; con el fin de validar el
+perfomance de las mismas y mejorar el tiempo de ejecución de las pruebas de nivel intermedio.
+
+- Para un mismo feature se ejecutaron diferentes casos de prueba, validando los códigos de respuesta y capturando
+la data; con el fin de validar si la respuesta devuelta es la respuesta esperada; y en caso de serlo, dar como OK el caso.
+
+- Karate es una herramienta muy poderosa que permite la automatización y manejo tanto de la data de entrada como de salida
+de las APIS; además que permite generar un reporte general de los casos de pruebas ejecutados, e integrarse con otras herramientas
+como en este caso lo fue Cucumber.
