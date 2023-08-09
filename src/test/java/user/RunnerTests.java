@@ -6,7 +6,7 @@ public class RunnerTests {
     @Karate.Test
     @Order(1)
     Karate testSingUp() {
-        return Karate.run("classpath:user/login.feature").tags("@SingUp");
+        return Karate.run("classpath:user/signup.feature").tags("@SingUp");
     }
     @Karate.Test
     @Order(2)
