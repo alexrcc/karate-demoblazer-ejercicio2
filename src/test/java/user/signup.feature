@@ -16,5 +16,5 @@ Feature: Post user https://api.demoblaze.com/signup
     And match response == <response>
     Examples:
       |idcase|id|username|Vusername   |password  |Vpassword|statuscode|response|
-      |case 1|id|username|alex19013    | password |123456789|200 |'""\n'       |
+      |case 1|id|username|alex19015   | password |123456789|200 |'""\n'       |
       |case 2|id|username|alex19007    | password |123456789|200 |{"errorMessage":"This user already exist."}|
